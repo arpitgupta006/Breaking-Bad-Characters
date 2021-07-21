@@ -10,10 +10,3 @@ interface APIRequest {
 
     suspend fun getInfo() : Response<List<ResponseBBItem>>
 }
-
-//Picasso.get().load(data.img).into(ivImage)
-//tvName.text = data.name
-//tvOccupation.text = data.occupation.toString()
-//tvActor.text = data.portrayed
-//tvAppearance.text = data.appearance.toString()
-//tvStatus.text = data.status
